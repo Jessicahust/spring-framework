@@ -16,6 +16,8 @@
 
 package org.springframework.cglib.core;
 
+import org.mockito.cglib.core.DefaultNamingPolicy;
+
 /**
  * Custom extension of CGLIB's {@link DefaultNamingPolicy}, modifying
  * the tag in generated class names from "ByCGLIB" to "BySpringCGLIB".
